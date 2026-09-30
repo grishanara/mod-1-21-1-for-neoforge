@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:enderman"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.05,
+      "looting_multiplier": 0.01
+    }
+  ],
+  "loot_table": "mutantbeasts:entities/endersoul_hand_drop"
+}
